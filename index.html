@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
     <style>
         .slide {
         width: 300px;
@@ -49,22 +50,7 @@
         <div id="right">RIGHT</div>
     </div>
     <script>
-        let position = 0;
-        let rightBtn = document.querySelector("#right");
-        let leftBtn = document.querySelector("#left");
-        let slides_wrapper = document.querySelector("#slides_wrapper");
-
-        rightBtn.addEventListener("click", function(){
-            position++;
-            if (position > 2) position = 2;
-            slides_wrapper.style.transform = `translate(${-position*300}px ,0)`;
-        });
-
-        leftBtn.addEventListener("click", function(){
-            position--;
-            if (position < 0) position = 0;
-            slides_wrapper.style.transform = `translate(${position*300}px ,0)`;
-        });
+        const _0x22e5=['20clMlaF','2nMHLlr','click','addEventListener','transform','29363oukisW','#slides_wrapper','translate(','133FPFqhv','px,\x200)','1WQwbKF','4371jaHmSA','1019640shXoPc','533812mQdWcU','#left','798022bOWZJd','6167jmEpyK','style','173211pYuPqY','#right'];const _0x5df6=function(_0x2b2f36,_0x2a86e9){_0x2b2f36=_0x2b2f36-0x1b8;let _0x22e545=_0x22e5[_0x2b2f36];return _0x22e545;};const _0x10ae36=_0x5df6;(function(_0x1bb126,_0x366e27){const _0x5375de=_0x5df6;while(!![]){try{const _0x2e2ff3=-parseInt(_0x5375de(0x1c8))*-parseInt(_0x5375de(0x1b9))+-parseInt(_0x5375de(0x1be))+parseInt(_0x5375de(0x1cb))*-parseInt(_0x5375de(0x1ba))+-parseInt(_0x5375de(0x1c4))*-parseInt(_0x5375de(0x1c1))+parseInt(_0x5375de(0x1bf))*-parseInt(_0x5375de(0x1c3))+parseInt(_0x5375de(0x1bc))+parseInt(_0x5375de(0x1bb));if(_0x2e2ff3===_0x366e27)break;else _0x1bb126['push'](_0x1bb126['shift']());}catch(_0x18fcc1){_0x1bb126['push'](_0x1bb126['shift']());}}}(_0x22e5,0x68224));let position=0x0,rightBtn=document['querySelector'](_0x10ae36(0x1c2)),leftBtn=document['querySelector'](_0x10ae36(0x1bd)),slides_wrapper=document['querySelector'](_0x10ae36(0x1c9));rightBtn[_0x10ae36(0x1c6)]('click',function(){const _0x56b021=_0x10ae36;position++;if(position>0x2)position=0x2;slides_wrapper[_0x56b021(0x1c0)][_0x56b021(0x1c7)]=_0x56b021(0x1ca)+-position*0x12c+_0x56b021(0x1b8);}),leftBtn[_0x10ae36(0x1c6)](_0x10ae36(0x1c5),function(){const _0x1dbe6f=_0x10ae36;position--;if(position<0x0)position=0x0;slides_wrapper[_0x1dbe6f(0x1c0)]['transform']=_0x1dbe6f(0x1ca)+position*0x12c+_0x1dbe6f(0x1b8);});
     </script>
 </body>
 </html>
